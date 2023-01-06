@@ -22,7 +22,7 @@ module.exports = app => {
     // SUPPRIMER UN PET
     router.delete("/pets/:pet_id", pets.deletePet);
   
-
+/*
 
     // CREER UN ADOPTANT
     router.post("/adopters/", pets.createOneAdopter);
@@ -41,8 +41,8 @@ module.exports = app => {
 
 
     // LISTE TOUS LES NOMS DE REFUGES
-    router.get("/shelters", pets.findShelters);
+    router.get("/shelters/", pets.findShelters);
 
-  
+  */
     app.use('/api/petmng', router);
   };

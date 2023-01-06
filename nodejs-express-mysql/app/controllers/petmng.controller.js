@@ -1,5 +1,5 @@
 const Pet = require("../models/petmng.model.js");
-const Adopter = require("../models/petmng.model.js");
+//const Adopter = require("../models/petmng.model.js");
 
 //  CREER UN PET et SAVE DANS LA DB
 exports.createOnePet = (req, res) => {
@@ -127,7 +127,7 @@ exports.deletePet = (req, res) => {
       });
 };
 
-
+/*
 
 
 //  CREER UN ADOPTANT
@@ -255,4 +255,4 @@ exports.findShelters = (req, res) => {
       });
     else res.send(data);
   });
-};
+};*/

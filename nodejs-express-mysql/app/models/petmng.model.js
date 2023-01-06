@@ -174,7 +174,7 @@ Pet.removePet = (pet_id, result) => {
 
 //************OPERATIONS CRUD SUR LES ADOPTANTS***********//
 
-
+/*
 
 //POST - CREER UN ADOPTANT
 Adopter.createAdopter = (newAdopter, result) => {
@@ -289,7 +289,7 @@ Adopter.getAllAdopterName = result => {
     });
   };
 
-  //************REFUGES**************//
+  //************REFUGES**************//*/
 
 //GET - LISTE TOUS LES NOMS DE REFUGES (refuge n'est pas une table)
 Pet.getAllShelters = result => {
@@ -304,7 +304,7 @@ Pet.getAllShelters = result => {
       result(null, res);
     });
   };
+*/
 
-
-module.exports = Adopter;
+//module.exports = Adopter;
 module.exports = Pet;
